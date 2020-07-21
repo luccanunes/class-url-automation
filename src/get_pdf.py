@@ -1,4 +1,4 @@
-def get_url():
+def get_pdf():
     from consoleLog import clog, log_sleep
     from datetime import datetime
 
@@ -27,14 +27,12 @@ def get_url():
 
     URL = f'https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/{mnum}_{mon_names[int(mnum) -1]}/AGEN_{ag}_SAS_{dnum}-{mnum}_2serie.pdf'
 
-    clog.log('7;92', f'URL: {URL}', True)
+    clog.log('7;95', f'URL: {URL}', True)
 
     log.write(f'\t\tDate: {date}\n')
     log.write(f'\t\tURL: {URL}\n')
     log.write('\t}\n')
     log.write('};\n\n')
     log.close()
+
     return URL
-
-
-get_url()
