@@ -1,0 +1,23 @@
+
+Program launch {
+	Timestamp: 2020-07-21 15:51:52.605758
+	Target chats: ['4471999930704']
+	Method: URL
+	Message type: single text
+	Message content: "https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf"
+	Sucessfull connection to website {
+		Timestamp: 2020-07-21 15:51:56.896258
+		ERROR: send button somehow not found. Timestamp: 2020-07-21 15:52:12.216018
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 15:53:42.579429
+	Target chats: ['5571999930704']
+	Method: URL
+	Message type: single text
+	Message content: "https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf"
+	Sucessfull connection to website {
+		Timestamp: 2020-07-21 15:53:47.003607
+	}
+};

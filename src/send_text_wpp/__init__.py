@@ -38,7 +38,7 @@ def send_same_textURL(phone_numbers, text, mlog='default_message_log'):
             if number == phone_numbers[0]:
                 partial_log_sleep(15, True, 'so the page can load')
             else:
-                log_sleep(8, True, 'to send the message')
+                log_sleep(6, True, 'to send the message')
             try:
                 send_button = driver.find_element_by_xpath(
                     '//*[@id="main"]/footer/div[1]/div[3]')
@@ -51,7 +51,6 @@ def send_same_textURL(phone_numbers, text, mlog='default_message_log'):
             else:
                 send_button.click()
                 log(92, f'Sucessfuly sent message to {number}!')
-                log_sleep(3, True)
     msg_log.write('\t}\n')
     msg_log.write('};\n')
     msg_log.close()

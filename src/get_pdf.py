@@ -19,7 +19,8 @@ def get_pdf():
 
     mnum = date[5:7]
     dnum = date[8:]
-    ag = 15
+    ag = int(dnum) - (int(dnum)//7) * 2
+    print(ag)
     mon_names = (
         'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
         'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
@@ -36,3 +37,6 @@ def get_pdf():
     log.close()
 
     return URL
+
+
+get_pdf()

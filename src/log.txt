@@ -68,3 +68,48 @@ Program launch {
 	}
 };
 
+Program launch {
+	Timestamp: 2020-07-21 15:51:50.235821
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 15:52:41.436219
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 15:53:42.237895
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 17:42:30.993547
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_6_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 17:43:22.590069
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_6_SAS_21-07_2serie.pdf
+	}
+};
+
