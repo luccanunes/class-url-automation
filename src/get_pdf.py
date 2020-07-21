@@ -1,5 +1,5 @@
 def get_pdf():
-    from consoleLog import clog, log_sleep
+    from console_log import clog, log_sleep
     from datetime import datetime
 
     date = str(datetime.now().date())
