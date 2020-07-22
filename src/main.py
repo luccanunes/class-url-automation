@@ -9,14 +9,18 @@ from time import sleep
 def main():
     pdf = get_pdf()
     download_pdf(pdf[0])
-    print(get_url(pdf[1]))
+    link = get_url(pdf[1])
+    send_wpp(
+        ['5571999930704', '5571999124404', '5571986991043',
+         '5571997377176', '5571999440042'], link
+    )
 
 
 # schedule.every().day.at("7:20").do(main)
-schedule.every().day.at("23:20").do(main)
+schedule.every().day.at("07:15").do(main)
 
 while True:
     if schedule.run_pending():
-        schedule.run_pending()
         break
-    sleep(10)
+    sleep(9300)
+print('cabou')
