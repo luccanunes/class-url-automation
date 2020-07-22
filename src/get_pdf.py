@@ -20,15 +20,15 @@ def get_pdf():
     mnum = date[5:7]
     dnum = date[8:]
     ag = int(dnum) - (int(dnum)//7) * 2
-    print(ag)
     mon_names = (
         'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
         'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
     )
+    file_name = f'AGEN_{ag}_SAS_{dnum}-{mnum}_2serie.pdf'
 
-    URL = f'https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/{mnum}_{mon_names[int(mnum) -1]}/AGEN_{ag}_SAS_{dnum}-{mnum}_2serie.pdf'
+    URL = f'https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/{mnum}_{mon_names[int(mnum) -1]}/{file_name}'
 
-    clog.log('7;95', f'URL: {URL}', True)
+    clog.log('7;95', f'PDF URL: {URL}', True)
 
     log.write(f'\t\tDate: {date}\n')
     log.write(f'\t\tURL: {URL}\n')
@@ -36,4 +36,4 @@ def get_pdf():
     log.write('};\n\n')
     log.close()
 
-    return URL
+    return (URL, file_name)

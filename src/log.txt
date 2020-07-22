@@ -149,3 +149,165 @@ Program launch {
 	}
 };
 
+Program launch {
+	Timestamp: 2020-07-21 22:00:37.015996
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:34:38.610075
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:34:49.102418
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:38:13.922028
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:38:25.861166
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:38:55.328492
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:39:06.192715
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:39:46.309748
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:39:57.126066
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:40:57.812546
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:41:08.702743
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:43:25.076171
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:43:35.999705
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:48:17.435782
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:48:50.191242
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:49:21.352391
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:50:01.038060
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-21 22:52:44.792427
+	Date: 2020-07-21
+	Sucessfully generated URL {
+		Date: 2020-07-21
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_15_SAS_21-07_2serie.pdf
+	}
+};
+
