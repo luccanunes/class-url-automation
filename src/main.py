@@ -17,10 +17,10 @@ def main():
 
 
 # schedule.every().day.at("7:20").do(main)
-schedule.every().day.at("07:15").do(main)
+schedule.every().day.at("08:24").do(main)
 
 while True:
     if schedule.run_pending():
         break
-    sleep(9300)
+    sleep(30)
 print('cabou')

@@ -4,7 +4,7 @@ def send_same_textURL(phone_numbers, text, mlog='default_message_log'):
     from console_log.log_sleep import log_sleep, partial_log_sleep
     from datetime import datetime
 
-    log('7;97', 'LAUNCHING PROGRAM', True)
+    log('7;97', 'LAUNCHING PROGRAM: WPP Bot', True)
     log(36, f'Target chats: {phone_numbers}')
     log(36, f'Message type: single text')
     log(36, f'Message content: "{text}"')
@@ -38,7 +38,7 @@ def send_same_textURL(phone_numbers, text, mlog='default_message_log'):
             if number == phone_numbers[0]:
                 partial_log_sleep(15, True, 'so the page can load')
             else:
-                log_sleep(6, True, 'to send the message')
+                log_sleep(3, True, 'to send the message')
             try:
                 send_button = driver.find_element_by_xpath(
                     '//*[@id="main"]/footer/div[1]/div[3]')
@@ -51,7 +51,9 @@ def send_same_textURL(phone_numbers, text, mlog='default_message_log'):
             else:
                 send_button.click()
                 log(92, f'Sucessfuly sent message to {number}!')
+                log_sleep(3, True)
     msg_log.write('\t}\n')
     msg_log.write('};\n')
     msg_log.close()
     log('7;91', 'EXITING PROGRAM', True)
+    driver.close()

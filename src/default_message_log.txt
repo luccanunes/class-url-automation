@@ -21,3 +21,24 @@ Program launch {
 		Timestamp: 2020-07-21 15:53:47.003607
 	}
 };
+
+Program launch {
+	Timestamp: 2020-07-22 07:15:38.621835
+	Target chats: ['5571999930704', '5571999124404', '5571986991043', '5571997377176', '5571999440042']
+	Method: URL
+	Message type: single text
+	Message content: "https://us02web.zoom.us/j/82313146956?pwd=NXJ1c21hdVJYY1BDUWZUazE0RjdJdz09"
+	Sucessfull connection to website {
+		Timestamp: 2020-07-22 07:15:43.028760
+	Sucessfull connection to website {
+		Timestamp: 2020-07-22 07:15:58.375925
+		ERROR: send button somehow not found. Timestamp: 2020-07-22 07:16:04.606969
+	Sucessfull connection to website {
+		Timestamp: 2020-07-22 07:16:05.472322
+	Sucessfull connection to website {
+		Timestamp: 2020-07-22 07:16:11.828063
+		ERROR: send button somehow not found. Timestamp: 2020-07-22 07:16:18.025267
+	Sucessfull connection to website {
+		Timestamp: 2020-07-22 07:16:18.574922
+	}
+};
