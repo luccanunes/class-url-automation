@@ -37,6 +37,3 @@ def get_pdf():
     log.close()
 
     return URL
-
-
-get_pdf()
