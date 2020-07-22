@@ -365,3 +365,21 @@ Program launch {
 	}
 };
 
+Program launch {
+	Timestamp: 2020-07-22 16:44:40.090829
+	Date: 2020-07-22
+	Sucessfully generated URL {
+		Date: 2020-07-22
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_16_SAS_22-07_2serie.pdf
+	}
+};
+
+Program launch {
+	Timestamp: 2020-07-22 17:00:15.248287
+	Date: 2020-07-22
+	Sucessfully generated URL {
+		Date: 2020-07-22
+		URL: https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/07_julho/AGEN_16_SAS_22-07_2serie.pdf
+	}
+};
+
