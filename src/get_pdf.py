@@ -14,7 +14,7 @@ def get_pdf():
 
     mnum = date[5:7]
     dnum = date[8:]
-    ag = int(dnum) - (int(dnum)//7) * 2
+    ag = int(dnum) - round(int(dnum)/7) * 2
     mon_names = (
         'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
         'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
