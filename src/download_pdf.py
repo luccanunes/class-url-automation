@@ -1,5 +1,4 @@
 def download_pdf(URL):
-    from get_pdf import get_pdf
     from selenium import webdriver
     from time import sleep
 

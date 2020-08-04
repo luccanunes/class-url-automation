@@ -1,17 +1,15 @@
 import os
 from get_pdf import get_pdf
-from download_pdf import download_pdf
-from get_url import get_url
+from get_url import get_url, spanish
 from time import sleep
 
 
 def main():
     from selenium import webdriver
     pdf = get_pdf()
-    url = get_url(pdf['file_name'])
-    pdf = pdf['URL']
-    download_pdf(pdf)
+    url = spanish(pdf['file_name'])
     # url = get_url('AGEN_23_SAS_31-07_2serie.pdf')
+    pdf = pdf['URL']
     zoom = url['zoom']
     id = url['id']
     password = url['password']
@@ -20,7 +18,7 @@ def main():
     driver.get(zoom)
     # * Run JavaScript code to send msg
     os.system(
-        f"node E:\coding\other\class-url-automation\src\send_text_wpp\index.js {zoom} {pdf} {id} {password}"
+        f"node E:\coding\other\class-url-automation\src\send_text_wpp\spanish.js {zoom} {pdf} {id} {password}"
     )
 
 

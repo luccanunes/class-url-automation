@@ -8,7 +8,7 @@ function start(client) {
     const id = process.argv[4];
     const password = process.argv[5];
 
-    const msg = `Link do PDF de hoje: ${pdf}\nLink do Zoom de hoje: ${zoom}\nID da reunião: ${id}\nSenha: ${password}`;
+    const msg = `Link do PDF de hoje: ${pdf}\nLink do Zoom vespertino: ${zoom}\nID da reunião: ${id}\nSenha: ${password}`;
 
     client.sendText('557199440042-1486592907@g.us', msg);
     

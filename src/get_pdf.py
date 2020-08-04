@@ -14,12 +14,12 @@ def get_pdf():
 
     mnum = date[5:7]
     dnum = date[8:]
-    ag = int(dnum) - round(int(dnum)/7) * 2
+    ag = int(dnum) - round(int(dnum)/7) * 2 if round(int(dnum)/7) != 0 else 1
     mon_names = (
         'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
         'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
     )
-    file_name = f'AGEN_{ag}_SAS_{dnum}-{mnum}_2serie.pdf'
+    file_name = f'AGEN_{ag}_SAS_{dnum}-{mnum}_2serie.pdf' if ag > 9 else f'AGEN_0{ag}_SAS_{dnum}-{mnum}_2serie.pdf'
 
     URL = f'https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/{mnum}_{mon_names[int(mnum) -1]}/{file_name}'
 
