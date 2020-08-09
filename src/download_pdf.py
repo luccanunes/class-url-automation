@@ -19,3 +19,5 @@ def download_pdf(URL):
 
     driver.get(URL)
     sleep(5)
+
+download_pdf('https://colegiooficina.com.br/arquivos/restrito/2serie/agenda_sas/08_agosto/AGEN_03_SAS_05-08_2serie.pdf')

@@ -10,6 +10,7 @@ def main():
     pdf = get_pdf()
     print(pdf['URL'])
     download_pdf(pdf['URL'])
+    sleep(3)
     url = get_url(pdf['file_name'])
     # url = get_url('AGEN_23_SAS_31-07_2serie.pdf')
     zoom = url['zoom']
