@@ -1,6 +1,7 @@
 def get_pdf():
     from console_log import clog, log_sleep
     from datetime import datetime
+    from math import ceil
 
     date = str(datetime.now().date())
     '''
@@ -14,7 +15,7 @@ def get_pdf():
 
     mnum = date[5:7]
     dnum = date[8:]
-    ag = int(dnum) - round(int(dnum)/7) * 2 if round(int(dnum)/7) != 0 else 1
+    ag = int(dnum) - ceil(int(dnum)/7) * 2 # if round(int(dnum)/7) != 0 else 1
     mon_names = (
         'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho',
         'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'

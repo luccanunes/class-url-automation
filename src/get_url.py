@@ -20,12 +20,13 @@ def get_url(file_name):
             id = array[i+1].replace('\n', '') + array[i + 2].replace('\n', '') + array[i+3].replace('\n', '')
             found_id = True
             clog.log('7;93', f'ID: {id}', True)
-        elif 'acesso:' in array[i] and not found_password:
+        elif 'acesso:' in array[i].replace('\n', '') and not found_password:
             password = array[i+1].replace('\n', '')
             found_password = True
             clog.log('7;93', f'PSSWRD: {password}', True)
 
     return {'zoom': zoom, 'id': id, 'password': password}
+get_url('AGEN_07_SAS_11-08_2serie.pdf')
 
 def spanish(file_name):
     import PyPDF2
@@ -56,7 +57,7 @@ def spanish(file_name):
                 aid = array[i+1].replace('\n', '') + array[i + 2].replace('\n', '') + array[i+3].replace('\n', '')
                 afound_id = True
                 clog.log('7;93', f'AFTERNOON ID: {aid}', True)
-        elif 'acesso:' in array[i]:
+        elif 'acesso:' in array[i].replace('\n', ''):
             if not found_password:
                 found_password = True
             else:
