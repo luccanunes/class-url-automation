@@ -10,7 +10,9 @@ function start(client) {
 
     const msg = `Boa tarde\nLink do PDF de hoje: ${pdf}\nLink do Zoom vespertino: ${zoom}\nID da reunião: ${id}\nSenha: ${password}`;
 
-    client.sendText("557199440042-1486592907@g.us", msg);
+    const PHONE_NUMBER = "";
+
+    client.sendText(PHONE_NUMBER, msg);
 
     client.onMessage((message) => {
         switch (message.body.toLowerCase()) {
